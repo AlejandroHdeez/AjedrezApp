@@ -1,0 +1,21 @@
+.Fondo{
+    height:100%;
+    width:100%;
+    background: url('https://4.bp.blogspot.com/-drH_SQ6ehxY/WqZoG8Neg9I/AAAAAAAAA8U/z4wj27xQnN0UWDa6zD6G8iPaBuHrvEZnACEwYBhgL/s1600/extreme-chess-mofos.gif') no-repeat center center;
+    background-size:100% 100%;
+    position: absolute;
+  }
+
+  .Orientacion{
+    position:relative;
+    top:35%;
+    float:none;
+	  text-align:center;
+  }
+
+  .transparente{
+    opacity: 0.8;
+    -moz-opacity: 0.5;
+    filter: alpha(opacity=80); 
+    -khtml-opacity: 1.5;
+    }
