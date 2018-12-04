@@ -1,0 +1,51 @@
+    .tablero{
+    width:500px;
+    margin:1rem auto;
+    background:url(https://eraseunvangogh.files.wordpress.com/2014/01/degradado-fondo-foros-de-diseo-y-desarrollo-web-hawaii-dermatology-32285.jpg);
+    }
+
+    ul{
+    margin:0;
+    padding:0;
+    display:table; 
+    }
+    
+  
+    li{
+    display:table-cell;
+    width:55px;
+    height:55px;
+    font-size:2rem;
+    text-align:center;
+    }
+
+    .tablero  ul:nth-child(odd) li:nth-child(even), ul:nth-child(even) li:nth-child(odd){
+      background-color:rgba(0,0,0,.6);
+    }
+  
+    .tablero ul:nth-child(n+7) li{
+      color:#fff;
+      border-color: #000;
+		}
+
+    .margen{
+        border-style: solid;
+    }
+
+    .menu{
+      text-align: left;
+    }
+
+    .ancho{
+      width:500px;
+      margin:1rem;
+      }
+
+      .borde{
+        border-style: inset; 
+        border-width: 4px;
+      }
+
+      .color{
+        color: #9F9F9F;
+      }
